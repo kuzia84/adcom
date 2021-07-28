@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adcom - test</title>
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	@@include('_header.html')
+	<main>
+		<div class="letter">
+			<div class="letter__nav">
+				<div class="container">
+					<nav class="top-nav">
+						<div class="top-nav__logo">
+							<a href="https://www.eldorado.ru/" target="_blank">
+								<img src="./img/logo.png" alt="Эльдорадо">
+							</a>
+						</div>
+						<div class="top-nav__profile">
+							<a href="https://www.eldorado.ru/personal/club/operations/" target="_blank">
+								<img src="./img/icons/profile.svg" alt="Профиль">
+							</a>
+						</div>
+						<div class="top-nav__burger">
+							<a class="burger-btn" href="https://www.eldorado.ru/d/" target="_blank" title="Каталог">
+								<span></span>
+							</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="letter__order order-desc">
+				<div class="order-desc__wrapper">
+					<div class="order-desc__text">
+						<p>Ваш заказ №ХХХХХХХХХ обрабатывается</p>
+						Мы подтвердим Ваш заказ в ближайшее время, а так же сообщим ожидаемую дату доставки по СМС и эл.
+						почте или позвоним для уточнения.
+					</div>
+					<div class="order-desc__man">
+						<img src="./img/gifs/GIF_1.gif" alt="Эльдорадо">
+					</div>
+				</div>
+			</div>
+			<div class="letter__content order-content">
+				<div class="container">
+					<div class="order-content__wrapper">
+						<div class="order-content__legend">
+							<div class="order-content__good">ТОВАР</div>
+							<div class="order-content__quantity">
+								<span class="normal">КОЛИЧЕСТВО</span>
+								<span class="xsm">кол-во</span>
+							</div>
+							<div class="order-content__price">СТОИМОСТЬ</div>
+						</div>
+						<div class="order-content__table">
+							<div class="order-content__item">
+								<div class="order-content__good order-good">
+									<div class="order-good__image">
+										<img src="./img/product1.png" alt='Ultra HD (4K) OLED телевизор 55" Sony KD-55A8'>
+									</div>
+									<div class="order-good__link">
+										<a href="https://www.eldorado.ru/cat/detail/ultra-hd-4k-oled-televizor-55-sony-kd-55a8/"
+											target="_blank">
+											Ultra HD (4K) OLED телевизор 55" Sony KD-55A8
+										</a>
+									</div>
+								</div>
+								<div class="order-content__quantity">1</div>
+								<div class="order-content__price">35 990 р.</div>
+							</div>
+							<div class="order-content__item">
+								<div class="order-content__good order-good">
+									<div class="order-good__image">
+										<img src="./img/product2.png" alt='Робот-пылесос Tefal X-plorer Serie 60 (RG7455WH)'>
+									</div>
+									<div class="order-good__link">
+										<a href="https://www.eldorado.ru/cat/detail/robot-pylesos-tefal-explorer-serie-60-rg7455wh/"
+											target="_blank">
+											Робот-пылесос Tefal X-plorer Serie 60 (RG7455WH)
+										</a>
+									</div>
+								</div>
+								<div class="order-content__quantity">1</div>
+								<div class="order-content__price">35 990 р.</div>
+							</div>
+							<div class="order-content__item delivery-item">
+								<div class="order-content__good">Доставка</div>
+								<div class="order-content__price">290 р.</div>
+							</div>
+							<div class="order-content__item total-item">
+								<div class="order-content__good">К ОПЛАТЕ:</div>
+								<div class="order-content__price">56 270 р.</div>
+							</div>
+						</div>
+						<div class="order-content__info order-info">
+							<div class="order-info__item">
+								<div class="order-info__icon">
+									<img src="./img/icons/user.svg" alt="Получатель">
+								</div>
+								<div class="order-info__text">
+									<div class="order-info__top">
+										<p>Получатель</p>
+										Иван Иванович Иванов
+									</div>
+									Мы направили sms на номер <br>
+									+7 ХХХ ХХХ ХХ ХХ <br>
+									с подтверждением заказа.
+								</div>
+							</div>
+							<div class="order-info__item">
+								<div class="order-info__icon">
+									<img src="./img/icons/delivery.svg" alt="Доставка">
+								</div>
+								<div class="order-info__text">
+									<div class="order-info__top">
+										<p>Доставка курьером</p>
+										Москва, ул. Тихая,д.2а,кв.12
+									</div>
+									<b>Дата доставки заказа:</b><br>
+									25.03.2020 <br>
+									<b>Время:</b> с 09:00 по 22:00
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="letter__promo promo">
+				<div class="container">
+					<div class="promo__wrapper">
+						<div class="promo__item">
+							<a href="https://www.eldorado.ru/club/referral/" target="_blank">
+								<img src="./img/gifs/GIF_2.gif" alt="Приглашайте друзей и получайте бонусы">
+							</a>
+						</div>
+						<div class="promo__item">
+							<a href="https://www.eldorado.ru/promo/prm-bonuses-for-feedback/" target="_blank">
+								<img src="./img/gifs/GIF_3.gif" alt="Дарим бонусы за отзыв">
+							</a>
+						</div>
+					</div>
+					<div class="promo__text">
+						<p>Ждем вас снова!</p>
+						Ваш Эльдорадо.
+					</div>
+				</div>
+			</div>
+			<div class="letter__note">
+				<div class="container">
+					Это письмо было отправлено автоматически. <br> Если вы не создавали заказ на нашем ресурсе,
+					<a href="https://www.eldorado.ru/help/eldorado/contact_us.php" target="_blank">сообщите нам</a>
+					об этом.
+				</div>
+			</div>
+			<div class="letter__options options">
+				<div class="container">
+					<div class="options__wrapper">
+						<div class="options__logo">
+							<a href="https://www.eldorado.ru/" target="_blank">
+								<img src="./img/logo.png" alt="Эльдорадо">
+							</a>
+						</div>
+						<ul class="options__list">
+							<li class="options__item">
+								<a href="https://www.eldorado.ru/promo/internetrassrochka/" target="_blank">
+									<img src="./img/option1.jpg" alt="Рассрочка онлайн за 1 минуту">
+								</a>
+							</li>
+							<li class="options__item">
+								<a href="https://www.eldorado.ru/promo/110-uverennosti-v-tsene/" target="_blank">
+									<img src="./img/option2.jpg" alt="Гарантия низкой цены">
+								</a>
+							</li>
+							<li class="options__item">
+								<a href="https://www.eldorado.ru/help/delivery/" target="_blank">
+									<img src="./img/option3.jpg" alt="Быстрая и бережная доставка">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="letter__footer footer">
+				<div class="container">
+					<div class="footer__top top-footer">
+						<div class="top-footer__item">
+							<div class="top-footer__title">Звоните</div>
+							<a class="top-footer__call" href="tel:88002502525">
+								8 800 250 25 25
+							</a>
+						</div>
+						<div class="top-footer__item">
+							<div class="top-footer__title">Следите за новостями</div>
+							<div class="top-footer__social social-footer">
+								<ul class="social-footer__list">
+									<li class="social-footer__item">
+										<a href="https://www.instagram.com/eldorado_ru/" target="_blank">
+											<img src="./img/icons/insta.svg" alt="Instagram">
+										</a>
+									</li>
+									<li class="social-footer__item">
+										<a href="https://www.facebook.com/Eldorado.Stores" target="_blank">
+											<img src="./img/icons/fb.svg" alt="Facebook">
+										</a>
+									</li>
+									<li class="social-footer__item">
+										<a href="https://ok.ru/eldorado.stores" target="_blank">
+											<img src="./img/icons/ok.svg" alt="Odnoklassniki">
+										</a>
+									</li>
+									<li class="social-footer__item">
+										<a href="https://vk.com/eldorado_stores" target="_blank">
+											<img src="./img/icons/vk.svg" alt="VK">
+										</a>
+									</li>
+									<li class="social-footer__item">
+										<a href="https://www.youtube.com/user/eldoradovideo" target="_blank">
+											<img src="./img/icons/youtube.svg" alt="Youtube">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__info info-footer">
+						<p>
+							Вы получили это письмо, так как подписались на рассылку от Эльдорадо. Чтобы не пропускать
+							наши акции и скидки, добавьте адрес
+							<a href="mailto:eldorado@club.eldorado.ru">eldorado@club.eldorado.ru</a> в адресную книгу.
+							<span>Вы можете <a href="{{UnsubscribeUrl}}">отписаться</a> , но мы будем скучать :(</span>
+						</p>
+						<p>
+							Цены действительны на момент отправки письма и могут различаться в зависимости от региона
+							покупки.
+						</p>
+						<div class="info-footer__wrapper">
+							<div class="info-footer__web">
+								Веб-версия по <a href="{{WebLetterUrl}}" target="_blank">ссылке</a>.
+							</div>
+							<div class="info-footer__copyright">
+								© Эльдорадо, 2021
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	@@include('_footer.html')
+	@@include('_modal.html')
+
+
+	<script src="js/script.min.js"></script>
+</body>
+
+</html>
